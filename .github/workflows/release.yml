@@ -37,4 +37,3 @@ jobs:
           gh release create "$tag" \
             --title="$tag" \
             main.js manifest.json ${{ env.PLUGIN_NAME }}.zip
-                
