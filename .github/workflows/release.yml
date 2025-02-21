@@ -30,7 +30,7 @@ jobs:
           tag="${GITHUB_REF#refs/tags/}"
 
           gh release create "$tag" \
-            --repo="$GITHUB_REPOSITORY" \
             --title="$tag" \
             --generate-notes
             main.js manifest.json
+                
